@@ -1,0 +1,10 @@
+# swarm fetched images from regitry either local or public/private
+services:
+  flaskr:
+    image: 127.0.0.1:5001/spworspace22/flask:v1 # fetchinng from private registry
+    ports:
+      - "5000:5000"
+    container_name: flask # it is depreciated
+    deploy:
+      mode: replicated
+      replicas: 1

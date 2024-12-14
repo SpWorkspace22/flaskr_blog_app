@@ -1,0 +1,6 @@
+**/instance/flaskr.sqlite
+**/.venv/
+**/.vagrant/
+script.sh
+Vagrantfile
+**/__pycache__/**
