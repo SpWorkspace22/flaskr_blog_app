@@ -31,4 +31,4 @@ Initial Setip
 
     deploy service
         docker stack deploy -c swarm_compose.yml <name_of_service>
-        ''''
+        '''
