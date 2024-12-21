@@ -23,7 +23,7 @@ Initial Setip
 
 4. As Docker Swarm Service
     Setup your manager and worker nodes 
-    run a private register : docker service create --name registery -p<host_port:5000> registery:v2
+    run a private register : docker service create --name registery -p<host_port:5000> registry:v2
     build & push image 
         example:
         docker build -t 127.0.0.1:<host_port>/spworkspace22/flask:v1
